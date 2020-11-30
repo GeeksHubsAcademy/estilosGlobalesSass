@@ -1,0 +1,98 @@
+
+:root {
+    /*Primary colors*/
+    --primario1: #6200EE;
+    --primario2: #3700B3;
+
+    /*Colores secundarios*/
+
+    --secundario1: #03DAC6;
+    --secundario2: #018786;
+
+    /*Colores personales*/
+
+    --colorRojo: rgb(235,0,43);
+    --colorRojoClaro: rgb(255,55,55);
+    --colorGris3: #212121;
+    --colorGris2: #424242;
+    --colorGris1: #616161;
+
+    /*Color error*/
+
+    --enError: var(--colorRojo);
+}
+
+/* Margenes */
+
+/*SUPERIOR*/
+.marginTop1 { margin-top: 0.3em;}
+.marginTop2 { margin-top: 0.8em;}
+.marginTop3 { margin-top: 1.2em;}
+.marginTop4 { margin-top: 1.8em;}
+.marginTop5 { margin-top: 3em;}
+
+/*IZQUIERDA*/
+
+.marginLeft1 { margin-Left: 0.3em;}
+.marginLeft2 { margin-Left: 0.8em;}
+.marginLeft3 { margin-Left: 1.2em;}
+.marginLeft4 { margin-Left: 1.8em;}
+.marginLeft5 { margin-Left: 3em;}
+
+/*DERECHA*/
+
+.marginRight1 { margin-Right: 0.3em;}
+.marginRight2 { margin-Right: 0.8em;}
+.marginRight3 { margin-Right: 1.2em;}
+.marginRight4 { margin-Right: 1.8em;}
+.marginRight5 { margin-Right: 3em;}
+
+/*BOTTOM (INFERIOR)*/
+
+.marginBottom1 { margin-Bottom: 0.3em;}
+.marginBottom2 { margin-Bottom: 0.8em;}
+.marginBottom3 { margin-Bottom: 1.2em;}
+.marginBottom4 { margin-Bottom: 1.8em;}
+.marginBottom5 { margin-Bottom: 3em;}
+
+/*PADDING*/
+
+.pt1 { padding-top: 0.3em;}
+.pt2 { padding-top: 0.5em;}
+.pt3 { padding-top: 1em;}
+.pt4 { padding-top: 1.5em;}
+.pt5 { padding-top: 2em;}
+
+.pr1 { padding-right: 0.3em;}
+.pr2 { padding-right: 0.5em;}
+.pr3 { padding-right: 1em;}
+.pr4 { padding-right: 1.5em;}
+.pr5 { padding-right: 2em;}
+
+.pb1 { padding-bottom: 0.3em;}
+.pb2 { padding-bottom: 0.5em;}
+.pb3 { padding-bottom: 1em;}
+.pb4 { padding-bottom: 1.5em;}
+.pb5 { padding-bottom: 2em;}
+
+.pl1 { padding-left: 0.3em;}
+.pl2 { padding-left: 0.5em;}
+.pl3 { padding-left: 1em;}
+.pl4 { padding-left: 1.5em;}
+.pl5 { padding-left: 2em;}
+
+
+/*CARD*/
+
+.card {
+    display: flex;
+    flex-direction: column; 
+    height: fit-content;
+	width: fit-content;
+	
+	padding: 2em;
+	
+	border-radius: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background: var(--colorGris1);
+}

@@ -1,0 +1,56 @@
+
+.padre {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .contenedorPrincipal {
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+        height: 38em;
+        width: 20em;
+        background-color: var(--colorGris1);
+
+        .cabeceraHome {
+            background-color: var(--colorGris2);
+            height: 7em;
+            width: 15em;
+        }
+
+        .cuerpoHome {
+            background-color: var(--colorGris2);
+            height: 18em;
+            width: 15em;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .division1 {
+                width: 6em;
+                height: 14em;
+                background-color: white;
+                border: 0.2em solid var(--primario1);
+
+            }
+
+            .division2 {
+                width: 4em;
+                height: 14em;
+                background-color: white;
+                border: 0.2em solid var(--secundario1);
+            }
+
+        }
+    
+    }
+}
+
+
+
